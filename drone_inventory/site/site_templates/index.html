@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="container">
+    <!-- Header Section -->
+    <header class="row">
+        <div class="col-12 col-md-6" id="header-text">
+            <h2>Future of Car Collection</h2>
+            <h5>API tool to showcase your car collection.</h5>
+            <div>
+                <button class="btn btn-primary" style="background-color: red;">View Our Docs</button>
+                <button class="btn btn-primary" style="background-color: red;">Join Our Slack</button>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <img class="header-image" src="../../static/images/status1.jpg" alt="Hero Header Image">
+        </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Start Middle Section -->
+
+    <!-- Collection of Features Section -->
+    <section class="row" id="features-section">
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/api1.svg" alt="api image">
+            <h4>Dedication to Cars</h4>
+            <p>
+                If you are a fan of cars, come to the show! 
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/graph7.svg" alt="graphql image">
+            <h4>GraphQL API Route</h4>
+            <p>
+                We also have cars for sale!
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/database2.jpg" alt="database image">
+            <h4>Backed by a PostgreSQL Database</h4>
+            <p>
+                All data will be persisted inside of a secure Postgres Database. 
+            </p>
+        </div>
+    </section>
+    <!-- End of Collection Features -->
+
+    <!-- Community Section -->
+    <section class="row">
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/database3.jpg" alt="Drone Image" id="Drone-image">
+        </div>
+        <div class="col-12 col-md-6">
+            <h4>Connect with Like-minded Car Collectors</h4>
+            <p>
+                Join other car enthusiasts from around the world and collaborate on car trading.
+                Join our Car Sharing Channel and show your appreciation for your favorite cars.
+            </p>
+            <div>
+                <button class="btn btn-primary" style="background-color: red;">View Our Docs</button>
+                <button class="btn btn-primary" style="background-color: red;">Join Our Slack</button>
+            </div>
+        </div>
+    </section>
+    <!-- End of Community Section -->
+
+    <!-- Footer Section -->
+    <footer class="row" id="footer">
+        <div class="col-2">
+            <img src="../../static/images/CARSLOGO.png" alt="Coding Drones Logo" id="footer-logo">
+        </div>
+        <div class="col-2">
+            <div class="footer-text-flex">
+                <h4>Platform</h4>
+                <p>Why Coding Drones?</p>
+                <p>The Coding Drones Project</p>
+                <p>Donate</p>
+                <p>Spread The Word</p>
+                <p>Our Process</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="footer-text-flex">
+                <h4>Support</h4>
+                <p>Help Center</p>
+                <p>Contact Us</p>
+                <p>FAQs</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="footer-text-flex">
+                <h4>Resources</h4>
+                <p>Documentation</p>
+                <p>API Reference</p>
+                <p>Developer Tools</p>
+                <p>Case Studies</p>
+                <p>Blog</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="footer-text-flex">
+                <h4>Connect</h4>
+                <p>Twitter</p>
+                <p>Facebook</p>
+                <p>LinkedIn</p>
+                <p>Instagram</p>
+                <p>YouTube</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="footer-text-flex">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Partners</p>
+                <p>Press</p>
+                <p>Affiliate Program</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+{% endblock content %}
